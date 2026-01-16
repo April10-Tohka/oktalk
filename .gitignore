@@ -1,0 +1,5 @@
+# 必须忽略的（你目录里已经存在的）
+.idea/                  # 整个 IDEA 项目配置
+*.iml                   # 项目模块文件
+storage/logs/           # 日志目录
+storage/logs/*.log      # 所有日志文件
