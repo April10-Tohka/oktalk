@@ -1,0 +1,5 @@
+[36mINFO   [0m[2026-01-15 00:56:11.242]C:/Users/Minato/Desktop/毕设/OKtalk/main.go:24 main.main() 🔥 OKTalk Server 启动成功! 监听端口: 8080             
+[36mINFO   [0m[2026-01-15 01:15:53.697]C:/Users/Minato/Desktop/毕设/OKtalk/main.go:24 main.main() 🔥 OKTalk Server 启动成功! 监听端口: 8080             
+[36mINFO   [0m[2026-01-15 01:16:17.044]C:/Users/Minato/Desktop/毕设/OKtalk/internal/controller/router.go:28 oktalk/internal/controller.InitRouter.func1() ping接口基础健康检查                                  [36mtrace_id[0m=5ba55fe1713cfe468fe38efaf9d52e58
+[36mINFO   [0m[2026-01-15 01:16:39.823]C:/Users/Minato/Desktop/毕设/OKtalk/internal/controller/router.go:28 oktalk/internal/controller.InitRouter.func1() ping接口基础健康检查                                  [36mtrace_id[0m=cbaa7344251e83f5ed28beb7ea8c4609
+[31mFATAL  [0m[2026-01-15 16:56:04.634]C:/Users/Minato/Desktop/毕设/OKtalk/internal/servicecontext/gorm.go:59 oktalk/internal/servicecontext.InitGORM() ❌ 数据库连接失败: dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it. 

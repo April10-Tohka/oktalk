@@ -1,0 +1,44 @@
+server:
+  port: 8080
+  mode: "debug"
+  server_name: "oktalk"
+
+# 阿里云配置 (ASR & TTS & LLM)
+aliyun:
+  DASHSCOPE_API_KEY: "sk-e176256144f74691bf631030a75612e9"
+  ASR:
+    ws_url: "wss://dashscope.aliyuncs.com/api-ws/v1/inference/"
+    model: "fun-asr-realtime-2025-11-07"
+  LLM:
+    model: "deepseek-v3.2"
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  TTS:
+    ws_url: "wss://dashscope.aliyuncs.com/api-ws/v1/inference"
+    model: "cosyvoice-v3-plus"
+
+
+# 科大讯飞配置 (发音评测)
+xfyun:
+  app_id: "你的AppID"
+  api_secret: "你的Secret"
+  api_key: "你的Key"
+
+# 数据库配置 (用于学习报告)
+database:
+  driver: "mysql"
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: root
+  database: oktalk
+  max_idle_conns: 10
+  max_open_conns: 100
+  conn_max_lifetime: 3600
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password: ""
+  db: 0
+
+
